@@ -1,4 +1,4 @@
-import React from 'react';
+
 import type { Category } from './types';
 import { PaintBrushIcon, MusicalNoteIcon, CakeIcon } from '@heroicons/react/24/outline';
 

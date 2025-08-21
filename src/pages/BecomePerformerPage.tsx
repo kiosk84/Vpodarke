@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ChevronLeftIcon, UserCircleIcon, PhotoIcon, SparklesIcon, IdentificationIcon, PaperClipIcon } from '@heroicons/react/24/outline';
+import { ChevronLeftIcon, UserCircleIcon, PhotoIcon, SparklesIcon } from '@heroicons/react/24/outline';
 
 const BecomePerformerPage: React.FC = () => {
     const navigate = useNavigate();

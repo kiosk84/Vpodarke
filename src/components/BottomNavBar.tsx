@@ -25,9 +25,7 @@ const BottomNavBar: React.FC = () => {
                         to={item.to}
                         end={item.end}
                         className={({ isActive }) => 
-                            isActive
-                                ? `${baseLinkClass} ${activeLinkClass}`
-                                : `${baseLinkClass} ${inactiveLinkClass}`
+                            `${baseLinkClass} ${isActive ? activeLinkClass : inactiveLinkClass}`
                         }
                     >
                         <Icon className="h-6 w-6" />

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Outlet, useLocation } from 'react-router-dom';
+import { useLocation, Outlet } from 'react-router-dom';
 import Header from './Header';
 import BottomNavBar from './BottomNavBar';
 import Breadcrumbs from './Breadcrumbs';

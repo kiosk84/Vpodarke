@@ -22,7 +22,7 @@ const PerformerDashboardPage: React.FC = () => {
 
     const service = {
         title: 'Портреты на холсте',
-        imageUrl: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600',
+        imageUrl: 'https://images.unsplash.com/photo-1579783A02614-a3fb3927b6a5?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600',
         status: 'Активна',
     };
 

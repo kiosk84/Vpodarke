@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowUpTrayIcon, PhotoIcon, PlusIcon } from '@heroicons/react/24/outline';
+import { ArrowUpTrayIcon, PlusIcon } from '@heroicons/react/24/outline';
 import { CATEGORIES } from '../constants';
 import { useOrder } from '../context/OrderContext';
 import { useTelegram } from '../hooks/useTelegram';
